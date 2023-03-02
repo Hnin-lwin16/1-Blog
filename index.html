@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta Tags -->
+<title>Testing medium blog Page</title>
+<link rel="icon" href="journal.svg">
+<meta name="title" content="Testing medium blog Page">
+<meta name="description" content="Bs and sass basic testing, not for product">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="Medium-Blog-test">
+<meta property="og:title" content="Testing medium blog Page">
+<meta property="og:description" content="Bs and sass basic testing, not for product">
+<meta property="og:image" content="https://chic-blancmange-8a6d5a.netlify.app/preview.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white border-bottom ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-journal nav-logo"></i>
+      </a>
+      <div class=" input-group w-25">
+        <span class=" input-group-text border-end-0">
+          <i class=" bi bi-search"></i>
+        </span>
+        <input type="text" placeholder="Search in my blog" class=" form-control border-start-0">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">
+              <i class=" bi bi-pencil-square"></i>
+              Write
+            </a>
+          </li>
+          <li class="nav-item  bg-success rounded-pill">
+            <a class="nav-link text-white" href="register.html">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Sign In</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="img/user.png" class=" border rounded-5" height="30" alt="">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--Nav-->
+
+  <main>
+    <section id="blog">
+      <div class=" container">
+        <div class=" row g-5">
+          <div class=" col-md-8">
+            <div class=" banner mt-5 mb-5">
+              <div class="d-flex align-items-center">
+                <div class="bg-secondary py-1 px-2 me-2 rounded-5">
+                  <i class=" bi bi-tag-fill"></i>
+                </div>
+                <h1>Programming</h1>
+              </div>
+              <div class=" mt-2">
+                <button class="btn btn-sm btn-success me-2 ">Follow</button>
+                <button class=" btn btn-sm btn-outline-success">Start Writing</button>
+              </div>
+            </div>
+            <!--.banner-->
+            <div class=" articles">
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="detail.html" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="detail.html" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+              <article>
+                <hr>
+                <div class=" write-title mb-2 mt-4">
+                  <img src="https://miro.medium.com/fit/c/24/24/1*pZIPldUG0GZXpLsfT7Xb3Q.jpeg" alt="" class=" rounded-circle me-3" height="30">
+                  <a href="#" class=" text-decoration-none small text-black">Ifedolapo Shiloh Olotu</a>
+                  <a href="#" class=" text-decoration-none small text-black-50">.1 day ago</a>
+                </div>
+                <div class=" row">
+                  <div class=" col-9">
+                    <div class=" d-flex flex-column h-100">
+                      <a href="#" class=" text-decoration-none h4 text-dark d-block">
+                        Disqualified from a National Web Design
+                      </a>
+                      <a href="#" class=" text-decoration-none  text-black para">
+                        Yes, you did read that right. On 2/18/2023, my school’s Web Design team, including myself, Ben Nasse, and Nolan Yee, was disqualified
+                      </a>
+                      <div class=" d-flex align-items-center justify-content-between mt-auto">
+                        <div>
+                          <a href="#" class=" btn btn-sm  btn-secondary">Programming</a>
+                          <a href="#" class=" text-decoration-none text-black-50 ms-2">4 min read</a>
+                        </div>
+                        <i class="bi bi-bookmark-star"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" col-3">
+                    <img src="https://miro.medium.com/fit/c/112/112/1*HHUuHFqEXs7WPFekd4x8uw.png" alt="" class=" w-100">
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class=" col-md-4">
+            <div class=" my-5">
+              <div class=" row">
+                <div class=" col-6">
+                  <h4 class=" fw-bold">284K</h4>
+                  <p>Stories</p>
+                </div>
+                <div class=" col-6">
+                  <h4 class=" fw-bold">96K</h4>
+                  <p>Writers</p>
+                </div>
+              </div>
+              <div class=" users">
+                <img alt="Fakhrurrozi Ozy" src="https://miro.medium.com/fit/c/36/36/0*QlewZznHhONyzfW7" width="36" height="36">
+                <img alt="Samet Eker" src="https://miro.medium.com/fit/c/36/36/1*dmbNkD5D-u45r44go_cf0g.png" width="36" height="36">
+                <img alt="Jordan Bonecutter" src="https://miro.medium.com/fit/c/36/36/1*GQuccaZCocpb8CJWWRx2Ag.jpeg" width="36" height="36">
+                <img alt="Yiming Cao" src="https://miro.medium.com/fit/c/36/36/1*QQQVkAQ-XKeJwSnTlxCHKQ.png" width="36" height="36">
+                <img alt="pandaquests" src="https://miro.medium.com/fit/c/36/36/1*1-Z5f33LP2LWGEmlPtxi3g.png" width="36" height="36">
+                <img alt="Arton Demaku" src="https://miro.medium.com/fit/c/36/36/0*XXzX2KJbrO7KhKKY" width="36" height="36">
+
+
+
+                <img alt="Jermaine Tucker" src="https://miro.medium.com/fit/c/36/36/0*elRPodhYGxhocx2S" width="36" height="36">
+                <img alt="Tristan Wolff" src="https://miro.medium.com/fit/c/36/36/1*Sroq2nC2n-In-UBpTfVKbg.png" width="36" height="36">
+              </div>
+            </div>
+            <hr>
+            <div class=" position-sticky " style="top: 10px;">
+              <div class=" topic my-5">
+                <p class=" mb-3 fw-bold">Related Topic</p>
+                <div>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Software Development</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">JavaScript</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Web Development</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Coding</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Technology</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Python</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Data Science</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Software Engineering</a>
+                  <a href="#" class=" btn btn-secondary mb-3 ">Machine Learning</a>
+                </div>
+              </div>
+              <div class="topWriter mb-5">
+                <p class=" mb-3 fw-bold">Top Writers</p>
+                <div class="writer row g-3 mb-3">
+                  <div class=" col-2">
+                    <img src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif" class=" rounded-circle w-100" alt="">
+                  </div>
+                  <div class=" col-7">
+                    <p class=" small mb-0 fw-bold">javinpaul</p>
+                    <p class=" small text-truncate ">
+                      I am Java programmer, blogger, working on Java, J2EE, UNIX, FIX Protocol. I share Java tips on http://javarevisited.blogspot.com and http://java67.com
+                    </p>
+                  </div>
+                  <div class=" col-3">
+                    <a href="#" class=" btn btn-success">Follow</a>
+                  </div>
+                </div>
+                <div class="writer row g-3 mb-3">
+                  <div class=" col-2">
+                    <img src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif" class=" rounded-circle w-100" alt="">
+                  </div>
+                  <div class=" col-7">
+                    <p class=" small mb-0 fw-bold">javinpaul</p>
+                    <p class=" small text-truncate ">
+                      I am Java programmer, blogger, working on Java, J2EE, UNIX, FIX Protocol. I share Java tips on http://javarevisited.blogspot.com and http://java67.com
+                    </p>
+                  </div>
+                  <div class=" col-3">
+                    <a href="#" class=" btn btn-success">Follow</a>
+                  </div>
+                </div>
+                <div class="writer row g-3 mb-3">
+                  <div class=" col-2">
+                    <img src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif" class=" rounded-circle w-100" alt="">
+                  </div>
+                  <div class=" col-7">
+                    <p class=" small mb-0 fw-bold">javinpaul</p>
+                    <p class=" small text-truncate ">
+                      I am Java programmer, blogger, working on Java, J2EE, UNIX, FIX Protocol. I share Java tips on http://javarevisited.blogspot.com and http://java67.com
+                    </p>
+                  </div>
+                  <div class=" col-3">
+                    <a href="#" class=" btn btn-success">Follow</a>
+                  </div>
+                </div>
+                <div class="writer row g-3 mb-3">
+                  <div class=" col-2">
+                    <img src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif" class=" rounded-circle w-100" alt="">
+                  </div>
+                  <div class=" col-7">
+                    <p class=" small mb-0 fw-bold">javinpaul</p>
+                    <p class=" small text-truncate ">
+                      I am Java programmer, blogger, working on Java, J2EE, UNIX, FIX Protocol. I share Java tips on http://javarevisited.blogspot.com and http://java67.com
+                    </p>
+                  </div>
+                  <div class=" col-3">
+                    <a href="#" class=" btn btn-success">Follow</a>
+                  </div>
+                </div>
+                <div class="writer row g-3 mb-3">
+                  <div class=" col-2">
+                    <img src="https://miro.medium.com/fit/c/32/32/0*u9Ha3uTCjEmW_3gn.gif" class=" rounded-circle w-100" alt="">
+                  </div>
+                  <div class=" col-7">
+                    <p class=" small mb-0 fw-bold">javinpaul</p>
+                    <p class=" small text-truncate ">
+                      I am Java programmer, blogger, working on Java, J2EE, UNIX, FIX Protocol. I share Java tips on http://javarevisited.blogspot.com and http://java67.com
+                    </p>
+                  </div>
+                  <div class=" col-3">
+                    <a href="#" class=" btn btn-success">Follow</a>
+                  </div>
+                </div>
+              </div>
+              <div class="visit">
+                <p class=" mb-3">Visit the archive</p>
+                <div>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                  <a href="#" class=" text-decoration-none text-black-50 me-2">Help</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

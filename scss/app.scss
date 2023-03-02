@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+//font-family: 'IBM Plex Serif', serif;
+//font-family: 'Montserrat', sans-serif;
+
+$font-family-sans-serif:'Montserrat',
+sans-serif;
+$navbar-nav-link-padding-x: 2rem;
+$input-bg: rgba(250, 250, 250, 1);
+$input-border-color: #ffffff00;
+$input-group-addon-bg: rgba(250, 250, 250, 1);
+$input-border-radius: 2rem;
+
+$container-max-widths: (sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  //  xxl: 1320px
+);
+$secondary: rgba(237, 237, 237, 1);
+$btn-border-radius-sm: 2rem;
+$btn-border-radius: 2rem;
+$btn-padding-x: 20px;
+
+//Custom CSS
+.nav-logo {
+  font-size: 2rem;
+}
+
+.para {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.users img {
+  margin-left: -10px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.users img:first-child {
+  margin-left: 0;
+}
+
+.social a {
+  margin-right: 20px;
+}
+
+.social a:last-child {
+  margin-right: 0;
+}
+
+.social a:hover {
+  color: black !important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
